@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.src.resize</string>
+	<key>category</key>
+	<string>Universal Action</string>
+	<key>connections</key>
+	<dict>
+		<key>13F43189-880D-43E0-96D2-3F61F0094ABE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CD3C707E-E13B-4899-A98A-16B760CFD873</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1BAFEBBB-8446-4B95-97ED-6D8E37116D89</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A447B8C8-13FB-4654-95B8-D2D837B08F8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CD3C707E-E13B-4899-A98A-16B760CFD873</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4FFD4BD5-3857-4901-A5EA-77938654A685</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D5054FE-1E88-4BDC-92FC-12AA858CF8E2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5462DD99-202D-4CCF-9168-ACDE888A771D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4FFD4BD5-3857-4901-A5EA-77938654A685</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6D5054FE-1E88-4BDC-92FC-12AA858CF8E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B9C873E7-5CD9-48C1-A548-A8D1426FCF13</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A447B8C8-13FB-4654-95B8-D2D837B08F8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D8C0109A-340F-49A4-ABDA-E948F55D9539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B9C873E7-5CD9-48C1-A548-A8D1426FCF13</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1BAFEBBB-8446-4B95-97ED-6D8E37116D89</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CD3C707E-E13B-4899-A98A-16B760CFD873</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B94CD7E2-56D2-484C-9606-C96693CE37EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FE15CA00-F80F-42BC-88F8-D4AF594C231C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D8C0109A-340F-49A4-ABDA-E948F55D9539</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>13F43189-880D-43E0-96D2-3F61F0094ABE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FE15CA00-F80F-42BC-88F8-D4AF594C231C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3DD4A818-A36E-430B-BAEC-EA019513C898</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FEF41243-ED09-4E03-8F13-CA50086D6E21</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5462DD99-202D-4CCF-9168-ACDE888A771D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Christy</string>
+	<key>description</key>
+	<string>Reduce the size to specified longest length</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Reduce size of JPEG/PNG file</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/macOS/clipboard.set.image.data</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>A447B8C8-13FB-4654-95B8-D2D837B08F8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<true/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query} has been resized to {var:longestSide}px on the longest side &amp; copied to the clipboard</string>
+				<key>title</key>
+				<string>File resized</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>13F43189-880D-43E0-96D2-3F61F0094ABE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{var:theInput}",
+    "config" : {
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>D8C0109A-340F-49A4-ABDA-E948F55D9539</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>max_size</key>
+					<string>{var:longestSide}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/image-manipulation/image.resize.longest-side</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>B9C873E7-5CD9-48C1-A548-A8D1426FCF13</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string>{var:tempFolder}</string>
+				<key>sortBy</key>
+				<integer>1</integer>
+				<key>sortDirection</key>
+				<integer>0</integer>
+				<key>sortFoldersAtTop</key>
+				<false/>
+				<key>sortOverride</key>
+				<true/>
+				<key>stackBrowserView</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinalfred</string>
+			<key>uid</key>
+			<string>B94CD7E2-56D2-484C-9606-C96693CE37EB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>overwrite</key>
+					<true/>
+					<key>save_in</key>
+					<string>{var:tempFolder}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/finder.copy</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>4FFD4BD5-3857-4901-A5EA-77938654A685</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>name</key>
+				<string>Reduce size of JPEG/PNG file</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>FEF41243-ED09-4E03-8F13-CA50086D6E21</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Save image to clipboard</string>
+				<key>button2</key>
+				<string>Continue without saving to clipboard</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>You can save the resized image to the clipboard or choose to continue without doing so. You can in any event access the resized image in its original folder.</string>
+				<key>title</key>
+				<string>Save image to clipboard?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>1BAFEBBB-8446-4B95-97ED-6D8E37116D89</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>theInput</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5462DD99-202D-4CCF-9168-ACDE888A771D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{var:theInput}",
+    "config" : {
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>6D5054FE-1E88-4BDC-92FC-12AA858CF8E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Delete original</string>
+				<key>button2</key>
+				<string>Keep original</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>The new file is in its original folder.
+
+The original file is in {var:tempFolder} in case you still need it.
+
+(If you choose to delete you will browse in Alfred then use the right arrow key to select to delete the file.)</string>
+				<key>title</key>
+				<string>Do you want to delete the original file?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>CD3C707E-E13B-4899-A98A-16B760CFD873</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<true/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query} has been resized to {var:longestSide}px on the longest side. The original image is in {var:tempFolder}.</string>
+				<key>title</key>
+				<string>File resized and original preserved</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>3DD4A818-A36E-430B-BAEC-EA019513C898</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{var:theInput}",
+    "config" : {
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>FE15CA00-F80F-42BC-88F8-D4AF594C231C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Introduction
+
+This workflow, which works as a Universal Action on a single, selected JPEG or PNG file:
+
+- saves the *original* image in a temporary folder specified in the User Configuration;
+- resizes the image file to the default longest side measurement specified in the User Configuration (measured in pixels);
+- optionally allows saving of the resized image to the clipboard;
+- at the end of the workflow provides an option to delete the saved original image.
+
+**Note**: The workflow does *not* enlarge images that already have a shorter longer side than specified in the User Configuration.
+
+# Usage
+
+Select a single JPEG or PNG file in Finder, use your Universal Actions hotkey and choose `Reduce size of JPEG/PNG file` to run the workflow.
+
+![Reduce size of JPEG/PNG file](Images/SelectedFile.png)
+
+# Credit
+The icon is provided under the [Creative Commons Attribution 3.0 Unported licence](https://creativecommons.org/licenses/by/3.0/legalcode) courtesy of ferdi setiadi.</string>
+	<key>uidata</key>
+	<dict>
+		<key>13F43189-880D-43E0-96D2-3F61F0094ABE</key>
+		<dict>
+			<key>note</key>
+			<string>Notification so you know what's been done</string>
+			<key>xpos</key>
+			<real>1220</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>1BAFEBBB-8446-4B95-97ED-6D8E37116D89</key>
+		<dict>
+			<key>note</key>
+			<string>Choose whether or not to save resized image to clipboard</string>
+			<key>xpos</key>
+			<real>750</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>3DD4A818-A36E-430B-BAEC-EA019513C898</key>
+		<dict>
+			<key>note</key>
+			<string>No deletion of original but a notification to confirm what you did</string>
+			<key>xpos</key>
+			<real>1675</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>4FFD4BD5-3857-4901-A5EA-77938654A685</key>
+		<dict>
+			<key>note</key>
+			<string>Copy the original file to the default temp. folder set in User Configuration</string>
+			<key>xpos</key>
+			<real>305</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>5462DD99-202D-4CCF-9168-ACDE888A771D</key>
+		<dict>
+			<key>note</key>
+			<string>Save the file as a variable</string>
+			<key>xpos</key>
+			<real>205</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>6D5054FE-1E88-4BDC-92FC-12AA858CF8E2</key>
+		<dict>
+			<key>note</key>
+			<string>Set file as input for next action</string>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>A447B8C8-13FB-4654-95B8-D2D837B08F8A</key>
+		<dict>
+			<key>note</key>
+			<string>Save resized image to clipboard</string>
+			<key>xpos</key>
+			<real>950</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>B94CD7E2-56D2-484C-9606-C96693CE37EB</key>
+		<dict>
+			<key>note</key>
+			<string>Browse in Alfred to delete original</string>
+			<key>xpos</key>
+			<real>1550</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>B9C873E7-5CD9-48C1-A548-A8D1426FCF13</key>
+		<dict>
+			<key>note</key>
+			<string>Resize longest side of image to default length set in User Configuration</string>
+			<key>xpos</key>
+			<real>595</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>CD3C707E-E13B-4899-A98A-16B760CFD873</key>
+		<dict>
+			<key>note</key>
+			<string>Delete original file or not?</string>
+			<key>xpos</key>
+			<real>1395</real>
+			<key>ypos</key>
+			<real>135</real>
+		</dict>
+		<key>D8C0109A-340F-49A4-ABDA-E948F55D9539</key>
+		<dict>
+			<key>note</key>
+			<string>Set file as input for next action (so we can use "Last path component” in the Notification Action)</string>
+			<key>xpos</key>
+			<real>1130</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>FE15CA00-F80F-42BC-88F8-D4AF594C231C</key>
+		<dict>
+			<key>note</key>
+			<string>Set file as input for next action (so we can use "Last path component” in the Notification Action)</string>
+			<key>xpos</key>
+			<real>1560</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>FEF41243-ED09-4E03-8F13-CA50086D6E21</key>
+		<dict>
+			<key>note</key>
+			<string>A file action for a selected JPEG or PNG file</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>~/Downloads/Temp</string>
+				<key>placeholder</key>
+				<string>~/Downloads/Temp</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>This is the folder where the original image will be copied to preserve it. (You have the option of deleting the original at the end of the workflow.)</string>
+			<key>label</key>
+			<string>Temp folder to preserve original image</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>tempFolder</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>1024</string>
+				<key>placeholder</key>
+				<string>1024</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>This is the length, in pixels, you want for the longest side of the image. The default value is 1024 but you can change that to anything you want. (Note: smaller images will not be enlarged.)</string>
+			<key>label</key>
+			<string>Length in pixels of desired longest side</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>longestSide</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
