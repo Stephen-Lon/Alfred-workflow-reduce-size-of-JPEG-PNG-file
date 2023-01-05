@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>app.alfredapp.stephenc.resize</string>
+	<string>app.alfred.stephenc.resize</string>
 	<key>category</key>
 	<string>Universal Action</string>
 	<key>connections</key>
@@ -761,7 +761,7 @@ The icon is provided under the [Creative Commons Attribution 3.0 Unported licenc
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>/tmp/app.alfredapp.stephenc.resize.backups</string>
+				<string>/tmp/app.alfred.stephenc.resize.backups</string>
 				<key>filtermode</key>
 				<integer>1</integer>
 				<key>placeholder</key>
